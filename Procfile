@@ -1,1 +1,1 @@
-web: gunicorn dpwebdevelopment.wsgi
+web: gunicorn digital_resume.wsgi --log-file -
