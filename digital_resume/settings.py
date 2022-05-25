@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-from distutils import config
+from decouple import config
 from pickle import TRUE
 import django_heroku
 from pathlib import Path
