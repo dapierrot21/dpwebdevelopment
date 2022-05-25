@@ -1,1 +1,1 @@
-web: gunicorn digital_resume.wsgi
+web: gunicorn dpwebdevelopment.wsgi
